@@ -3,6 +3,7 @@ const {createApp} = Vue;
 createApp({
     data() {
         return {
+            logoImg: `img/logo.png`,
             tasks: [
                 {
                 text: 'Prendere la mappa di Artù',
